@@ -56,6 +56,21 @@ The development dependencies include tools and libraries to aid in development:
 
 ## Project Structure
 
+```bash
+src/
+├── app/ # Redux app store
+├── components/ # Reusable React components
+├── features/ # Redux slices and store configuration
+├── lib/ # Utility functions and helpers
+├── middleware/ # Redux middleware
+├── routes/ # React Router routes
+├── schema/ # Zod schemas for react hook form
+├── test/ # Vitest test
+├── types/ # Global types
+├── index.css # Main styling
+└── main.tsx # Entry point for the App
+```
+
 ## License
 
 This project is licensed under the MIT License.
